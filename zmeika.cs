@@ -1,4 +1,4 @@
-#danrus32
+//danrus32
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
