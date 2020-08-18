@@ -20,9 +20,8 @@ public class Zmeika_test : MonoBehaviour
     public GameObject apple;
     public float speed = 1f;
     public int expectation = 25;
-	private GameObject zmeika_head;
-    private GameObject game_over_png;
-    public GameObject obj_game_over_png;
+    private GameObject zmeika_head;
+
     public float zmeika_change_x  = 0f;
     public float zmeika_change_y  =  0f;
     private int apple_eaten = 0;
@@ -95,8 +94,7 @@ public class Zmeika_test : MonoBehaviour
                             }
                         zmeika_head.transform.localPosition = new Vector3 (width  / 2f ,height/2f);
                         apple_eaten = 0;
-                        game_over_png = Instantiate (obj_game_over_png, new Vector2(width  / 2f ,height/2f), Quaternion.identity) as GameObject;
-                        game_over_png.transform.localScale = new Vector2 (5,7 );
+                        
                         
                        
                         
